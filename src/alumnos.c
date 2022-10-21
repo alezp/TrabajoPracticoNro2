@@ -23,6 +23,7 @@
 /*=====[Definitions of external public global variables]=====================*/
 
 /*=====[Definitions of public global variables]==============================*/
+//type_def alumno alum;
 
 /*=====[Definitions of private global variables]=============================*/
 

@@ -33,7 +33,7 @@
 /*=====[Implementations of interrupt functions]==============================*/
 
 /*=====[Implementations of private functions]================================*/
-
+//! Defino la funcion main .
 int main(int argc, char *argv[]) {
 
     char cadena[128];
