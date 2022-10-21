@@ -35,31 +35,17 @@
 
  
 
-bool SerializarAlumno(char * cadena, size_t espacio, const alumno_t alumno) {
-    int resultado;
-    const char FORMATO[] = "{"
-        "\"documento\":\"%s\","
-        "\"apellidos\":\"%s\","
-        "\"nombres\":\"%s\""
-    "}";
 
-    resultado = snprintf(cadena, espacio, FORMATO, 
-             alumno->documento, alumno->apellidos, alumno->nombres);
-
-    return (resultado >= 0);
-
-}
-
-bool AlejandroPolli(char * cadena, size_t espacio) {
+void Nombre(struct * const Alumno) 
+{
     const struct alumno_s alumno = {
         .apellidos = "Polli",
         .nombres = "Alejandro Miguel",
         .documento = "34.764.110",
     };
 
-    return SerializarAlumno(cadena, espacio, &alumno);
 }
 
 
-}
+
 /*=====[Implementations of private functions]================================*/

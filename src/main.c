@@ -9,8 +9,9 @@
  
 /*=====[Inclusion of own header]=============================================*/
 
-#include "alumnos.h"
+
 #include <stdio.h>
+#include "alumnos.h"
 
 /*=====[Inclusions of private function dependencies]=========================*/
 
@@ -32,18 +33,23 @@
 
 /*=====[Implementations of interrupt functions]==============================*/
 
+
 /*=====[Implementations of private functions]================================*/
-//! Defino la funcion main .
-int main(int argc, char *argv[]) {
 
-    char cadena[128];
+/**
+ * @brief 
+ *  Defino la Funcion Principal
+ * @return int 
+ */
 
-    if (AlejandroPolli(cadena, sizeof(cadena))) {
-        printf("%s\r\n", cadena);
-          } else {
-        printf("Error, la cadena es muy corta");
-    }
+int main(void) 
+{
 
-    return 0;
-   
+    
+        printf(nombre(alumno_s));
+        return 0;
+   /**
+    * @brief 
+    * 
+    */
 }
