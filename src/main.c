@@ -41,12 +41,9 @@
  *  Defino la Funcion Principal
  * @return int 
  */
-
-int main(void) 
-{
-
-    
-        printf(nombre(alumno_s));
+void main(void) 
+{           
+        printf(nombre(alumno_t));
         return 0;
    /**
     * @brief 

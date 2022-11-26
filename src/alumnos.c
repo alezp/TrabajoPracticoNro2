@@ -31,11 +31,6 @@
 
 /*=====[Implementations of public functions]=================================*/
 
-/*=====[Implementations of interrupt functions]==============================*/
-
- 
-
-
 void Nombre(struct * const Alumno) 
 {
     const struct alumno_s alumno = {
@@ -46,6 +41,6 @@ void Nombre(struct * const Alumno)
 
 }
 
-
+/*=====[Implementations of interrupt functions]==============================*/
 
 /*=====[Implementations of private functions]================================*/
