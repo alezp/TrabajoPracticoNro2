@@ -8,8 +8,8 @@
  */
  
 /*=====[Inclusion of own header]=============================================*/
-
-#include "alumnos.h"
+//#include <stddef.h>
+//#include <alumnos.h>
 #include <stdio.h>
 
 /*=====[Inclusions of private function dependencies]=========================*/
@@ -26,6 +26,11 @@
 //type_def alumno alum;
 
 /*=====[Definitions of private global variables]=============================*/
+typedef struct alumno_s {
+    char apellidos[30];
+    char nombres[30];
+    char documento[11];
+} const * alumno_t;
 
 /*=====[Prototypes (declarations) of private functions]======================*/
 

@@ -27,9 +27,9 @@ extern "C" {
 /*=====[Definitions of public data types]====================================*/
 
 typedef struct alumno_s {
-    char apellidos[30]=Polli;
-    char nombres[30]=AlejandroMiguel;
-    char documento[11]=34764110;
+    char apellidos[30];
+    char nombres[30];
+    char documento[11];
 } const * alumno_t;
 
 /*=====[Definitions of public global variables]==============================*/
